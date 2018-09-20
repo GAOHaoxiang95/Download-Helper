@@ -7,12 +7,10 @@ print('''1.输入自己正确的用户名和密码（和Moodle相同）
 3.输入到“课程链接”，点击回车
 4.页面上所有PDF格式的课件会被下载到程序当前文件夹下\n'''
 )
-#username = input("Username: ")
-#password = input("Password: ")
+username = input("Username: ")
+password = input("Password: ")
 
-username = 'zy15760'
-password = 'App995828?!'
-#os.system('cls')
+os.system('cls')
 module = input("课程链接: ")
 
 print("程序处理中... ...")
