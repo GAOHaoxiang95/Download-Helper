@@ -24,8 +24,8 @@ user = wait.until(EC.presence_of_element_located((By.ID,'username')))
 pas = wait.until(EC.presence_of_element_located((By.ID,'password')))
 btn = wait.until(EC.presence_of_element_located((By.ID,'loginbtn')))
 
-user.send_keys('zy15760')
-pas.send_keys('App995828?!')
+user.send_keys('')#your username
+pas.send_keys('')#your password
 btn.click()
 browser.implicitly_wait(10)
 
